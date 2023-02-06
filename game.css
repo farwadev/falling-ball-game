@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+#game {
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  background-color: rgba(121, 121, 168, 0.541);
+  border: 2px solid rgb(255, 255, 255);
+}
+#character {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top: 440px;
+  left: 190px;
+  z-index: 10000;
+}
+.block {
+  width: 400px;
+  height: 20px;
+  background-image: linear-gradient(to right, rgba(22, 1, 212, 0.795) , rgba(0, 195, 255, 0.904), rgba(212, 1, 184, 0.795));
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
+.hole {
+    width: 40px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+  }
+  
